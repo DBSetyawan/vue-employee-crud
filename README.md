@@ -1,10 +1,6 @@
-# Vue Tutorial
+# Vue employee CRUD
 
-We're going to create a small application with Vue. 
-
-### [Read the tutorial](https://taniarascia.com/getting-started-with-vue) | [View the demo](https://taniarascia.github.io/vue-tutorial)
-
-## Purposehttps://www.taniarascia.com/getting-started-with-vue/
+We're going to create a small application with Vue.
 
 The app will be a simple employee database and we'll learn:
 
@@ -27,7 +23,7 @@ yarn serve
 
 ## Author
 
-- [Daniel Setyawan](https://www.linkedIn.com/in/danieleins)
+- [Daniel Budi Setyawan](https://www.linkedin.com/in/danieleins)
 
 ## License
 
