@@ -2,13 +2,16 @@
   "name": "vue-tutorial",
   "version": "0.1.0",
   "private": false,
+  "homepage": "https://daniel.github.io/vue-employees",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "core-js": "^2.6.5",
+    "core-js": "^2.6.11",
     "vue": "^2.6.10"
   },
   "devDependencies": {
@@ -18,6 +21,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "gh-pages": "^2.1.1",
     "vue-template-compiler": "^2.5.21"
   },
   "eslintConfig": {
