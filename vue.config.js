@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath: 'vue-app',
+  publicPath: 'vue-employee-crud',
 } 
